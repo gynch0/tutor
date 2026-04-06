@@ -1,0 +1,60 @@
+/* ── Skip-link для клавиатурной навигации ── */
+.skip-link {
+	position: absolute;
+	top: -100px;
+	left: 16px;
+	z-index: 99999;
+	padding: 10px 20px;
+	background: var(--gold);
+	color: #fff;
+	font-weight: 700;
+	font-size: 14px;
+	border-radius: 0 0 8px 8px;
+	text-decoration: none;
+	transition: top 0.2s;
+}
+.skip-link:focus {
+	top: 0;
+}
+
+/* ── SHARED ── */
+.section {
+	padding: 90px 0;
+}
+.section__eyebrow {
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	color: var(--gold);
+	margin-bottom: 12px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.section__eyebrow::before {
+	content: "";
+	width: 28px;
+	height: 1.5px;
+	background: var(--gold);
+	display: block;
+}
+.section__title {
+	font-family: "Cormorant Garamond", serif;
+	font-size: clamp(2rem, 3.5vw, 2.8rem);
+	color: var(--dark);
+	line-height: 1.15;
+	margin-bottom: 14px;
+}
+.section__title em {
+	font-style: italic;
+	color: var(--gold);
+}
+.section__subtitle {
+	font-size: 15px;
+	color: var(--muted);
+	line-height: 1.75;
+	max-width: 520px;
+	margin-bottom: 52px;
+}
+

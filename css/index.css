@@ -1,0 +1,27 @@
+@import "./base/normalize.css";
+@import "./base/fonts.css";
+@import "./base/vars.css";
+@import "./base/globals.css";
+
+@import "./blocks/nav.css";
+@import "./blocks/hero.css";
+@import "./blocks/about.css";
+@import "./blocks/burger.css";
+@import "./blocks/courses.css";
+@import "./blocks/faq.css";
+@import "./blocks/footer.css";
+@import "./blocks/form.css";
+@import "./blocks/formats.css";
+@import "./blocks/hearts.css";
+@import "./blocks/method.css";
+@import "./blocks/pains.css";
+@import "./blocks/prices.css";
+@import "./blocks/results.css";
+@import "./blocks/reviews.css";
+@import "./blocks/shared.css";
+@import "./blocks/start.css";
+@import "./blocks/stats.css";
+@import "./blocks/why.css";
+@import "./blocks/animations.css";
+@import "./blocks/back-to-top.css";
+@import "./blocks/responsive.css";

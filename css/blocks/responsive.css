@@ -1,0 +1,1300 @@
+/* ════════════════════════════════════════════
+   АДАПТИВ — ПЛАНШЕТ  (max-width: 960px)
+════════════════════════════════════════════ */
+@media (max-width: 960px) {
+	nav {
+		padding: 13px 0;
+	}
+	.nav__links {
+		display: none;
+	}
+	.nav__cta {
+		padding: 9px 18px;
+		font-size: 12px;
+	}
+
+	.hero {
+		padding: 96px 0 52px;
+		min-height: auto;
+	}
+	.hero > .container {
+		grid-template-columns: 1fr;
+		gap: 32px;
+	}
+	.hero__visual {
+		display: none;
+	}
+	.hero__title {
+		font-size: 2.6rem;
+	}
+	.hero__subtitle {
+		font-size: 15px;
+		max-width: 100%;
+	}
+	.hero__badge {
+		font-size: 11px;
+		padding: 7px 14px;
+	}
+	.hero__actions {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 12px;
+	}
+	.btn--primary,
+	.btn--ghost {
+		width: 100%;
+		text-align: center;
+		padding: 15px 24px;
+	}
+
+	.stats__grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 24px;
+	}
+	.stats {
+		padding: 36px 0;
+	}
+	.stats__number {
+		font-size: 2.6rem;
+	}
+
+	.section {
+		padding: 56px 0;
+	}
+	.container {
+		padding: 0 24px;
+	}
+	.formats,
+	.pains,
+	.about,
+	.lesson,
+	.why,
+	.results,
+	.reviews,
+	.faq {
+		padding: 56px 0;
+	}
+	.how {
+		padding: 56px 0;
+	}
+	.prices {
+		padding: 56px 0;
+	}
+
+	.formats__grid {
+		grid-template-columns: 1fr;
+		gap: 20px;
+	}
+	.format {
+		padding: 32px 28px;
+	}
+	.format__badge {
+		top: 16px;
+		right: 16px;
+	}
+
+	.pains__grid {
+		grid-template-columns: 1fr 1fr;
+		gap: 16px;
+	}
+	.pains__cta {
+		flex-direction: column;
+		gap: 20px;
+	}
+	.pains__cta .btn--primary {
+		width: 100%;
+		text-align: center;
+	}
+
+	.about__inner {
+		grid-template-columns: 1fr;
+		gap: 0;
+	}
+	.about__photo-wrap {
+		display: none;
+	}
+	.about__name {
+		font-size: 2rem;
+	}
+
+	.courses__grid {
+		grid-template-columns: 1fr;
+		gap: 20px;
+	}
+	.course {
+		padding: 36px 28px;
+	}
+
+	.lesson__grid {
+		grid-template-columns: 1fr;
+		gap: 28px;
+	}
+	.lesson__timeline-wrap {
+		position: static;
+	}
+
+	.why__grid {
+		grid-template-columns: 1fr 1fr;
+		gap: 16px;
+	}
+
+	.how__steps {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 32px;
+	}
+	.how__steps::before {
+		display: none;
+	}
+
+	.results__grid {
+		grid-template-columns: 1fr 1fr;
+		gap: 16px;
+	}
+	.result--featured {
+		grid-column: span 2;
+		grid-row: auto;
+		padding: 36px 28px;
+	}
+	.result__story {
+		font-size: 1.35rem;
+	}
+
+	.reviews__grid {
+		grid-template-columns: 1fr;
+		gap: 16px;
+	}
+
+	.prices__grid {
+		grid-template-columns: 1fr;
+		gap: 20px;
+	}
+	.pricing.featured {
+		margin-top: 16px;
+	}
+
+	.faq__inner {
+		grid-template-columns: 1fr;
+		gap: 32px;
+	}
+
+	.contact {
+		padding: 56px 0;
+	}
+	.contact__inner {
+		grid-template-columns: 1fr;
+		gap: 40px;
+	}
+	.form {
+		padding: 32px 24px;
+	}
+	.form__row {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	footer {
+		padding: 28px 0;
+	}
+	.footer__inner {
+		flex-direction: column;
+		gap: 12px;
+		text-align: center;
+	}
+}
+
+/* ════════════════════════════════════════════
+   АДАПТИВ — ТЕЛЕФОН  (max-width: 480px)
+════════════════════════════════════════════ */
+@media (max-width: 480px) {
+	nav {
+		padding: 12px 0;
+	}
+	.nav__logo {
+		font-size: 1.05rem;
+	}
+	.nav__cta {
+		padding: 8px 14px;
+		font-size: 11px;
+	}
+
+	.hero {
+		padding: 88px 0 44px;
+	}
+	.hero__title {
+		font-size: 2rem;
+		line-height: 1.15;
+	}
+	.hero__subtitle {
+		font-size: 14px;
+		line-height: 1.7;
+	}
+	.hero__badge {
+		font-size: 10px;
+		padding: 6px 12px;
+		letter-spacing: 0.5px;
+		white-space: normal;
+		text-align: center;
+	}
+	.hero__proof {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 10px;
+	}
+	.hero__proof-text {
+		font-size: 12px;
+	}
+	.hero__stars {
+		font-size: 11px;
+	}
+
+	.stats__grid {
+		grid-template-columns: 1fr;
+		gap: 16px;
+	}
+	.stats {
+		padding: 24px 0;
+	}
+	.stats__number {
+		font-size: 2rem;
+	}
+	.stats__label {
+		font-size: 10px;
+		letter-spacing: 0.8px;
+	}
+
+	.section {
+		padding: 40px 16px;
+	}
+	.container {
+		padding: 0 16px;
+	}
+	.formats,
+	.pains,
+	.about,
+	.lesson,
+	.why,
+	.results,
+	.reviews,
+	.faq {
+		padding: 40px 0;
+	}
+	.how {
+		padding: 40px 0;
+	}
+	.prices {
+		padding: 40px 0;
+	}
+	.section__title {
+		font-size: 1.7rem;
+		line-height: 1.2;
+	}
+	.section__subtitle {
+		font-size: 13.5px;
+		margin-bottom: 28px;
+	}
+	.section__eyebrow {
+		font-size: 10px;
+		letter-spacing: 2.5px;
+	}
+
+	.formats__grid {
+		gap: 14px;
+	}
+	.format {
+		padding: 22px 18px;
+		border-radius: 18px;
+	}
+	.format__tag {
+		font-size: 10px;
+		padding: 5px 12px;
+		margin-bottom: 16px;
+	}
+	.format__icon {
+		font-size: 36px;
+		margin-bottom: 12px;
+	}
+	.format__title {
+		font-size: 1.35rem;
+	}
+	.format__desc {
+		font-size: 13px;
+		margin-bottom: 20px;
+	}
+	.format__features li {
+		font-size: 13px;
+	}
+	.format__price {
+		font-size: 1.8rem;
+	}
+	.format__price-note {
+		font-size: 11px;
+	}
+	.format__extra {
+		font-size: 12px;
+		padding: 10px 14px;
+	}
+	.format__badge {
+		font-size: 10px;
+		padding: 4px 10px;
+		top: 12px;
+		right: 12px;
+	}
+	.formats__note {
+		flex-direction: column;
+		gap: 8px;
+		font-size: 13px;
+		padding: 14px 16px;
+	}
+
+	.pains__grid {
+		grid-template-columns: 1fr;
+		gap: 10px;
+	}
+	.pain {
+		padding: 18px 16px;
+		border-radius: 14px;
+		gap: 12px;
+	}
+	.pain__icon {
+		font-size: 22px;
+	}
+	.pain__title {
+		font-size: 0.95rem;
+	}
+	.pain__desc {
+		font-size: 12.5px;
+	}
+	.pains__cta {
+		padding: 16px;
+		border-radius: 14px;
+	}
+	.pains__cta-text {
+		font-size: 13.5px;
+	}
+	.pains__cta-text strong {
+		font-size: 1.1rem;
+	}
+
+	.about__name {
+		font-size: 1.6rem;
+	}
+	.about__role {
+		font-size: 14px;
+		letter-spacing: 1.5px;
+	}
+	.about__bio {
+		font-size: 13.5px;
+	}
+	.cred__icon {
+		width: 36px;
+		height: 36px;
+		font-size: 17px;
+		border-radius: 10px;
+	}
+	.cred__text {
+		font-size: 12.5px;
+	}
+	.about__badge {
+		font-size: 11px;
+		padding: 5px 11px;
+	}
+	.about__quote {
+		padding: 14px 16px;
+		max-width: 180px;
+	}
+	.about__quote-text {
+		font-size: 12px;
+	}
+
+	.course {
+		padding: 24px 18px;
+		border-radius: 18px;
+	}
+	.course__flag {
+		font-size: 38px;
+		margin-bottom: 14px;
+	}
+	.course__name {
+		font-size: 1.5rem;
+	}
+	.course__orig {
+		font-size: 12px;
+		margin-bottom: 20px;
+	}
+	.course__pill {
+		padding: 5px 11px;
+		font-size: 11.5px;
+	}
+	.course__features li {
+		font-size: 12.5px;
+		padding: 6px 0;
+	}
+
+	.lesson__timeline-wrap {
+		padding: 20px 16px;
+		border-radius: 16px;
+	}
+	.timeline__num {
+		width: 34px;
+		height: 34px;
+		font-size: 13px;
+	}
+	.timeline__time {
+		font-size: 10px;
+	}
+	.timeline__title {
+		font-size: 13px;
+	}
+	.timeline__desc {
+		font-size: 12px;
+	}
+	.timeline__body {
+		padding-bottom: 18px;
+	}
+	.lesson__card {
+		padding: 18px 16px;
+		border-radius: 14px;
+		border-left-width: 3px;
+	}
+	.lesson__card-title {
+		font-size: 0.95rem;
+		gap: 8px;
+	}
+	.lesson__card-icon {
+		font-size: 18px;
+	}
+	.lesson__card-text {
+		font-size: 12.5px;
+	}
+
+	.why__grid {
+		grid-template-columns: 1fr;
+		gap: 10px;
+	}
+	.why__card {
+		padding: 22px 18px;
+		border-radius: 16px;
+	}
+	.why__icon {
+		width: 44px;
+		height: 44px;
+		font-size: 20px;
+		border-radius: 10px;
+		margin-bottom: 14px;
+	}
+	.why__card-title {
+		font-size: 1.05rem;
+	}
+	.why__card-text {
+		font-size: 13px;
+	}
+
+	.how__steps {
+		grid-template-columns: 1fr;
+		gap: 20px;
+	}
+	.how__step {
+		padding: 0 4px;
+	}
+	.how__step-num {
+		width: 44px;
+		height: 44px;
+		font-size: 16px;
+		margin-bottom: 14px;
+	}
+	.how__step-title {
+		font-size: 0.95rem;
+	}
+	.how__step-text {
+		font-size: 12.5px;
+	}
+
+	.results__grid {
+		grid-template-columns: 1fr;
+		gap: 12px;
+	}
+	.result--featured {
+		grid-column: span 1;
+		padding: 24px 18px;
+		border-radius: 18px;
+	}
+	.result--featured-label {
+		font-size: 10px;
+		margin-bottom: 16px;
+	}
+	.result__story {
+		font-size: 1.15rem;
+		margin-bottom: 14px;
+	}
+	.result__detail {
+		font-size: 12.5px;
+		margin-bottom: 20px;
+	}
+	.result__pupil-avatar {
+		width: 50px;
+		height: 50px;
+		font-size: 18px;
+	}
+	.result__pupil-name {
+		font-size: 12px;
+	}
+	.result__pupil-info {
+		font-size: 11px;
+	}
+	.result--small {
+		padding: 20px 18px;
+		border-radius: 16px;
+	}
+	.result__number {
+		font-size: 2.2rem;
+	}
+	.result__title {
+		font-size: 12.5px;
+	}
+	.result__desc {
+		font-size: 12px;
+	}
+
+	.review {
+		padding: 22px 18px;
+		border-radius: 16px;
+	}
+	.review__stars {
+		font-size: 12px;
+	}
+	.review__text {
+		font-size: 13px;
+	}
+	.review__text::before {
+		font-size: 52px;
+		top: -16px;
+		left: -6px;
+	}
+	.review__avatar {
+		width: 36px;
+		height: 36px;
+		font-size: 17px;
+	}
+	.review__name {
+		font-size: 12px;
+	}
+	.review__detail {
+		font-size: 11px;
+	}
+
+	.prices__grid {
+		gap: 14px;
+	}
+	.pricing {
+		padding: 28px 18px;
+		border-radius: 18px;
+	}
+	.pricing.featured {
+		margin-top: 18px;
+	}
+	.pricing__badge {
+		font-size: 10px;
+		padding: 4px 14px;
+	}
+	.pricing__icon {
+		font-size: 30px;
+		margin-bottom: 12px;
+	}
+	.pricing__name {
+		font-size: 1.15rem;
+	}
+	.pricing__desc {
+		font-size: 12.5px;
+		margin-bottom: 18px;
+	}
+	.pricing__amount {
+		font-size: 2.2rem;
+	}
+	.pricing__per {
+		font-size: 11px;
+		margin-bottom: 20px;
+	}
+	.pricing__list li {
+		font-size: 12.5px;
+		padding: 6px 0;
+	}
+	.pricing__btn {
+		padding: 12px;
+		font-size: 13px;
+	}
+	.prices__toggle {
+		padding: 9px 16px;
+		font-size: 12px;
+	}
+
+	.faq__inner {
+		gap: 20px;
+	}
+	.faq__question {
+		padding: 15px 16px;
+		font-size: 13px;
+		gap: 12px;
+	}
+	.faq__chevron {
+		font-size: 16px;
+	}
+	.faq__answer {
+		font-size: 12.5px;
+	}
+	.faq__item--open .faq__answer {
+		padding: 0 16px 16px;
+	}
+	.faq__guarantee {
+		padding: 14px 16px;
+		gap: 10px;
+	}
+	.faq__guarantee-icon {
+		font-size: 22px;
+	}
+	.faq__guarantee-text {
+		font-size: 12.5px;
+	}
+	.faq__guarantee-text strong {
+		font-size: 13px;
+	}
+
+	.contact {
+		padding: 40px 0;
+	}
+	.contact__inner {
+		gap: 28px;
+	}
+	.contact__title {
+		font-size: 1.65rem;
+	}
+	.contact__desc {
+		font-size: 13.5px;
+		margin-bottom: 24px;
+	}
+	.form {
+		padding: 22px 16px;
+		border-radius: 18px;
+	}
+	.form-title {
+		font-size: 1.25rem;
+	}
+	.form-sub {
+		font-size: 12.5px;
+		margin-bottom: 20px;
+	}
+	.form__free-tag {
+		font-size: 11px;
+		padding: 5px 10px;
+		margin-bottom: 16px;
+	}
+	.form__group {
+		margin-bottom: 12px;
+	}
+	.form__label {
+		font-size: 11px;
+	}
+	.form__input,
+	.form__select,
+	.form__textarea {
+		font-size: 16px;
+		padding: 12px 14px;
+		border-radius: 10px;
+	}
+	.form__textarea {
+		height: 80px;
+	}
+	.form__row {
+		grid-template-columns: 1fr;
+		gap: 0;
+	}
+	.form__submit {
+		font-size: 14px;
+		padding: 14px;
+		margin-top: 4px;
+	}
+	.form__note {
+		font-size: 11px;
+	}
+	.contact__link {
+		padding: 12px 14px;
+		font-size: 13px;
+		border-radius: 12px;
+	}
+	.contact__link-icon {
+		font-size: 17px;
+	}
+	.contact__link-label {
+		font-size: 10px;
+	}
+
+	footer {
+		padding: 22px 0;
+	}
+	.footer__inner {
+		gap: 8px;
+	}
+	.footer__logo {
+		font-size: 0.95rem;
+	}
+	.footer__langs {
+		font-size: 16px;
+		letter-spacing: 3px;
+	}
+	.footer__copy {
+		font-size: 10px;
+	}
+}
+
+/* ════════════════════════════════════════════
+   АДАПТИВ — МАЛЕНЬКИЙ ТЕЛЕФОН  (max-width: 350px)
+════════════════════════════════════════════ */
+@media (max-width: 350px) {
+	/* NAV */
+	nav {
+		padding: 10px 0;
+	}
+	.nav__logo {
+		font-size: 0.95rem;
+	}
+	.nav__cta {
+		padding: 7px 12px;
+		font-size: 11px;
+		letter-spacing: 0;
+	}
+
+	/* HERO */
+	.hero {
+		padding: 80px 0 36px;
+	}
+	.hero__title {
+		font-size: 1.75rem;
+		line-height: 1.15;
+	}
+	.hero__subtitle {
+		font-size: 13px;
+	}
+	.hero__badge {
+		font-size: 9.5px;
+		padding: 5px 10px;
+	}
+	.btn--primary,
+	.btn--ghost {
+		font-size: 13.5px;
+		padding: 13px 16px;
+	}
+	.hero__avatar {
+		width: 30px;
+		height: 30px;
+		font-size: 13px;
+		margin-left: -7px;
+	}
+	.hero__proof-text {
+		font-size: 11.5px;
+	}
+
+	/* STATS */
+	.stats__grid {
+		gap: 14px;
+	}
+	.stats {
+		padding: 20px 0;
+	}
+	.stats__number {
+		font-size: 1.8rem;
+	}
+	.stats__label {
+		font-size: 9px;
+		letter-spacing: 0.5px;
+	}
+
+	/* SHARED */
+	.section {
+		padding: 36px 0;
+	}
+	.container {
+		padding: 0 12px;
+	}
+	.formats,
+	.pains,
+	.about,
+	.lesson,
+	.why,
+	.results,
+	.reviews,
+	.faq {
+		padding: 36px 0;
+	}
+	.how {
+		padding: 36px 0;
+	}
+	.prices {
+		padding: 36px 0;
+	}
+	.section__title {
+		font-size: 1.5rem;
+	}
+	.section__subtitle {
+		font-size: 13px;
+		margin-bottom: 24px;
+	}
+	.section__eyebrow {
+		font-size: 9.5px;
+		letter-spacing: 2px;
+		gap: 8px;
+	}
+	.section__eyebrow::before {
+		width: 20px;
+	}
+
+	/* FORMATS */
+	.format {
+		padding: 18px 14px;
+		border-radius: 16px;
+	}
+	.format__tag {
+		font-size: 9.5px;
+		padding: 4px 10px;
+		margin-bottom: 12px;
+	}
+	.format__icon {
+		font-size: 32px;
+		margin-bottom: 10px;
+	}
+	.format__title {
+		font-size: 1.2rem;
+	}
+	.format__desc {
+		font-size: 12.5px;
+		margin-bottom: 16px;
+	}
+	.format__features li {
+		font-size: 12px;
+		gap: 8px;
+		padding: 5px 0;
+	}
+	.format__price {
+		font-size: 1.6rem;
+	}
+	.format__price-note {
+		font-size: 10.5px;
+	}
+	.format__extra {
+		font-size: 11.5px;
+		padding: 9px 12px;
+		border-radius: 8px;
+	}
+	.format__badge {
+		font-size: 9.5px;
+		padding: 3px 8px;
+		top: 10px;
+		right: 10px;
+		border-radius: 30px;
+	}
+	.formats__note {
+		font-size: 12px;
+		padding: 12px 14px;
+		border-radius: 12px;
+	}
+
+	/* PAINS */
+	.pain {
+		padding: 14px 12px;
+		gap: 10px;
+		border-radius: 12px;
+	}
+	.pain__icon {
+		font-size: 20px;
+	}
+	.pain__title {
+		font-size: 0.9rem;
+		margin-bottom: 4px;
+	}
+	.pain__desc {
+		font-size: 12px;
+	}
+	.pains__cta {
+		padding: 14px 12px;
+		border-radius: 12px;
+	}
+	.pains__cta-text {
+		font-size: 13px;
+	}
+	.pains__cta-text strong {
+		font-size: 1.05rem;
+		margin-bottom: 6px;
+	}
+
+	/* ABOUT */
+	.about__name {
+		font-size: 1.45rem;
+	}
+	.about__role {
+		font-size: 10px;
+		letter-spacing: 1px;
+		margin-bottom: 16px;
+	}
+	.about__bio {
+		font-size: 13px;
+		margin-bottom: 24px;
+	}
+	.cred {
+		gap: 10px;
+	}
+	.cred__icon {
+		width: 32px;
+		height: 32px;
+		font-size: 15px;
+		border-radius: 8px;
+	}
+	.cred__text {
+		font-size: 12px;
+	}
+	.cred__text strong {
+		font-size: 12.5px;
+	}
+	.about__badges {
+		gap: 6px;
+	}
+	.about__badge {
+		font-size: 10.5px;
+		padding: 4px 10px;
+	}
+
+	/* COURSES */
+	.course {
+		padding: 20px 14px;
+		border-radius: 16px;
+	}
+	.course__flag {
+		font-size: 32px;
+		margin-bottom: 10px;
+	}
+	.course__name {
+		font-size: 1.35rem;
+	}
+	.course__orig {
+		font-size: 11.5px;
+		margin-bottom: 16px;
+	}
+	.course__for {
+		font-size: 9.5px;
+		letter-spacing: 2px;
+		margin-bottom: 10px;
+	}
+	.course__pills {
+		gap: 6px;
+		margin-bottom: 20px;
+	}
+	.course__pill {
+		padding: 4px 10px;
+		font-size: 11px;
+	}
+	.course__features li {
+		font-size: 12px;
+		gap: 8px;
+		padding: 5px 0;
+	}
+
+	/* LESSON */
+	.lesson__timeline-wrap {
+		padding: 16px 12px;
+		border-radius: 14px;
+	}
+	.timeline__num {
+		width: 30px;
+		height: 30px;
+		font-size: 12px;
+	}
+	.timeline__time {
+		font-size: 9.5px;
+	}
+	.timeline__title {
+		font-size: 12.5px;
+	}
+	.timeline__desc {
+		font-size: 11.5px;
+	}
+	.lesson__card {
+		padding: 14px 12px;
+		border-radius: 12px;
+	}
+	.lesson__card-title {
+		font-size: 0.9rem;
+	}
+	.lesson__card-icon {
+		font-size: 16px;
+	}
+	.lesson__card-text {
+		font-size: 12px;
+	}
+
+	/* WHY */
+	.why__card {
+		padding: 18px 14px;
+		border-radius: 14px;
+	}
+	.why__icon {
+		width: 40px;
+		height: 40px;
+		font-size: 18px;
+		border-radius: 10px;
+		margin-bottom: 12px;
+	}
+	.why__card-title {
+		font-size: 1rem;
+		margin-bottom: 6px;
+	}
+	.why__card-text {
+		font-size: 12.5px;
+	}
+
+	/* HOW */
+	.how__step-num {
+		width: 40px;
+		height: 40px;
+		font-size: 15px;
+		margin-bottom: 12px;
+	}
+	.how__step-title {
+		font-size: 0.9rem;
+		margin-bottom: 6px;
+	}
+	.how__step-text {
+		font-size: 12px;
+	}
+
+	/* RESULTS */
+	.result--featured {
+		padding: 20px 14px;
+		border-radius: 16px;
+	}
+	.result--featured-label {
+		font-size: 9.5px;
+		margin-bottom: 12px;
+	}
+	.result__story {
+		font-size: 1.05rem;
+		margin-bottom: 12px;
+	}
+	.result__detail {
+		font-size: 12px;
+		margin-bottom: 16px;
+	}
+	.result__pupil-avatar {
+		width: 32px;
+		height: 32px;
+		font-size: 16px;
+	}
+	.result__pupil-name {
+		font-size: 11.5px;
+	}
+	.result__pupil-info {
+		font-size: 10.5px;
+	}
+	.result--small {
+		padding: 16px 14px;
+		border-radius: 14px;
+	}
+	.result__number {
+		font-size: 2rem;
+		margin-bottom: 4px;
+	}
+	.result__title {
+		font-size: 12px;
+		margin-bottom: 6px;
+	}
+	.result__desc {
+		font-size: 11.5px;
+	}
+
+	/* REVIEWS */
+	.review {
+		padding: 18px 14px;
+		border-radius: 14px;
+	}
+	.review__stars {
+		font-size: 11px;
+		margin-bottom: 12px;
+	}
+	.review__text {
+		font-size: 12.5px;
+		margin-bottom: 18px;
+	}
+	.review__text::before {
+		font-size: 44px;
+		top: -14px;
+	}
+	.review__avatar {
+		width: 32px;
+		height: 32px;
+		font-size: 15px;
+	}
+	.review__name {
+		font-size: 11.5px;
+	}
+	.review__detail {
+		font-size: 10.5px;
+	}
+
+	/* PRICES */
+	.pricing {
+		padding: 24px 14px;
+		border-radius: 16px;
+	}
+	.pricing__badge {
+		font-size: 9.5px;
+		padding: 4px 12px;
+	}
+	.pricing__icon {
+		font-size: 26px;
+		margin-bottom: 10px;
+	}
+	.pricing__name {
+		font-size: 1.05rem;
+		margin-bottom: 4px;
+	}
+	.pricing__desc {
+		font-size: 12px;
+		margin-bottom: 14px;
+	}
+	.pricing__amount {
+		font-size: 2rem;
+	}
+	.pricing__per {
+		font-size: 10.5px;
+		margin-bottom: 16px;
+	}
+	.pricing__list li {
+		font-size: 12px;
+		gap: 8px;
+		padding: 5px 0;
+	}
+	.pricing__list li::before {
+		font-size: 11px;
+	}
+	.pricing__btn {
+		padding: 11px;
+		font-size: 12.5px;
+	}
+	.prices__toggle {
+		padding: 8px 14px;
+		font-size: 11.5px;
+	}
+
+	/* FAQ */
+	.faq__question {
+		padding: 13px 14px;
+		font-size: 12.5px;
+		gap: 10px;
+	}
+	.faq__chevron {
+		font-size: 14px;
+	}
+	.faq__answer {
+		font-size: 12px;
+	}
+	.faq__item--open .faq__answer {
+		padding: 0 14px 14px;
+	}
+	.faq__guarantee {
+		padding: 12px 14px;
+		gap: 8px;
+	}
+	.faq__guarantee-icon {
+		font-size: 20px;
+	}
+	.faq__guarantee-text {
+		font-size: 12px;
+	}
+	.faq__guarantee-text strong {
+		font-size: 12.5px;
+		margin-bottom: 3px;
+	}
+
+	/* FORM */
+	.contact {
+		padding: 36px 0;
+	}
+	.contact__title {
+		font-size: 1.5rem;
+	}
+	.contact__desc {
+		font-size: 13px;
+		margin-bottom: 20px;
+	}
+	.form {
+		padding: 18px 12px;
+		border-radius: 16px;
+	}
+	.form-title {
+		font-size: 1.15rem;
+		margin-bottom: 4px;
+	}
+	.form-sub {
+		font-size: 12px;
+		margin-bottom: 16px;
+	}
+	.form__free-tag {
+		font-size: 10.5px;
+		padding: 4px 9px;
+		margin-bottom: 14px;
+	}
+	.form__label {
+		font-size: 10.5px;
+		margin-bottom: 5px;
+	}
+	.form__input,
+	.form__select,
+	.form__textarea {
+		font-size: 16px;
+		padding: 11px 12px;
+		border-radius: 9px;
+	}
+	.form__textarea {
+		height: 72px;
+	}
+	.form__submit {
+		font-size: 13px;
+		padding: 13px;
+		border-radius: 40px;
+	}
+	.form__note {
+		font-size: 10.5px;
+	}
+	.contact__link {
+		padding: 11px 12px;
+		font-size: 12.5px;
+		border-radius: 10px;
+		gap: 10px;
+	}
+	.contact__link-icon {
+		font-size: 16px;
+	}
+	.contact__link-text {
+		font-size: 13px;
+	}
+	.contact__link-label {
+		font-size: 9.5px;
+	}
+
+	/* FOOTER */
+	footer {
+		padding: 18px 0;
+	}
+	.footer__inner {
+		gap: 7px;
+	}
+	.footer__logo {
+		font-size: 0.85rem;
+	}
+	.footer__langs {
+		font-size: 14px;
+		letter-spacing: 2px;
+	}
+	.footer__copy {
+		font-size: 9.5px;
+	}
+}
+
+li {
+	list-style: none;
+}

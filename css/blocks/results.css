@@ -1,0 +1,117 @@
+/* ══════════════════════════════════════════
+   БЛОК 4 — РЕЗУЛЬТАТЫ (КОНКРЕТНЫЕ ЦИФРЫ)
+══════════════════════════════════════════ */
+.results {
+	background: var(--warm);
+	padding: 90px 0;
+}
+.results__inner {
+}
+.results__grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 24px;
+}
+.result--featured {
+	background: linear-gradient(145deg, var(--dark) 0%, #1a2e1e 100%);
+	border-radius: 28px;
+	padding: 48px 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
+	grid-row: span 2;
+}
+.result--featured-label {
+	font-size: 11px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	color: var(--gold-l);
+	font-weight: 600;
+	margin-bottom: 24px;
+}
+.result__label {
+	display: inline-block;
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: var(--dark);
+	background: var(--gold-l);
+	padding: 3px 10px;
+	border-radius: 50px;
+	margin-bottom: 14px;
+}
+.result__story {
+	font-family: "Cormorant Garamond", serif;
+	font-size: 1.6rem;
+	font-weight: 600;
+	color: #fff;
+	line-height: 1.4;
+	margin-bottom: 20px;
+}
+.result__story em {
+	font-style: italic;
+	color: var(--gold-l);
+}
+.result__detail {
+	font-size: 13.5px;
+	color: rgba(255, 255, 255, 0.5);
+	line-height: 1.7;
+	margin-bottom: 32px;
+}
+.result__pupil {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	padding-top: 24px;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.result__pupil-avatar {
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	object-fit: cover;
+	flex-shrink: 0;
+}
+.result__pupil-name {
+	font-weight: 600;
+	font-size: 13px;
+	color: #fff;
+}
+.result__pupil-info {
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.4);
+	margin-top: 2px;
+}
+.result--small {
+	background: var(--white);
+	border-radius: 24px;
+	padding: 32px 28px;
+	box-shadow: 0 2px 16px rgba(45, 74, 40, 0.07);
+	transition: transform 0.25s;
+}
+.result--small:hover {
+	transform: translateY(-4px);
+}
+.result__number {
+	display: block;
+	font-family: "Cormorant Garamond", serif;
+	font-size: 3rem;
+	font-weight: 700;
+	color: var(--gold);
+	line-height: 1;
+	margin-bottom: 10px;
+}
+.result__title {
+	font-size: 14px;
+	font-weight: 600;
+	color: var(--dark);
+	margin-bottom: 8px;
+}
+.result__desc {
+	font-size: 13px;
+	color: var(--muted);
+	line-height: 1.6;
+}
+

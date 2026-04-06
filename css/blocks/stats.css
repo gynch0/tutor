@@ -1,0 +1,30 @@
+/* ── STATS ── */
+.stats {
+	background: var(--dark);
+	padding: 48px 0;
+}
+.stats__grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 40px;
+}
+.stats__item {
+	text-align: center;
+}
+.stats__number {
+	display: block;
+	font-family: "Cormorant Garamond", serif;
+	font-size: 3.2rem;
+	font-weight: 700;
+	color: var(--gold-l);
+	line-height: 1;
+	margin-bottom: 12px;
+}
+.stats__label {
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.4);
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
